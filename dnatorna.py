@@ -1,10 +1,12 @@
 """
 Convert DNA sequences to RNA.
+Returned sequences have the same capitalization as the input sequence.
 """
 
 def rna(seq):
     """
     Convert a DNA sequence to RNA.
+    Returned sequences have the same capitalization as the input sequence.
     """
 
     # Determine if original sequence was uppercase
