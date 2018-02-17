@@ -19,7 +19,7 @@ def one_to_three(seq):
     # Make sure there are no illegal amino acids
     for amino_acid in seq:
         if amino_acid not in bd.aa.keys():
-            raise RuntimeError(amino_acid + 'is not a valid amino acid.')
+            raise RuntimeError(amino_acid + ' is not a valid amino acid.')
 
     # Otherwise, do the conversion
     aa_list = []
